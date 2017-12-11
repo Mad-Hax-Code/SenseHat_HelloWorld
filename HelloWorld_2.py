@@ -15,7 +15,7 @@ textToDisplay = "Hello World"
 # The following puts no values in Red or Green, but puts a
 # full value in the Blue section. This will result in a
 # blue background
-backgroundColor = (0,0,255);
+backgroundColor = (0,0,255)
 
 # The following tuple will result in yellow text
 textColor = (255, 255, 0)

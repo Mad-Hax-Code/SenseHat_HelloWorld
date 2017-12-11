@@ -7,19 +7,19 @@ from sense_hat import SenseHat
 sense = SenseHat()
 
 # Get text input from the user and store it in a String
-# variable called userText
-userText = input("Enter text: ")
+# variable called textToDisplay
+textToDisplay = input("Enter text: ")
 
-# Set text and background colors
+# Set text and background colors using tuples in RGB format
 textColor = (255,255,0)
 backColor = (0,0,255)
 
 # Correct the display orientation if neccessary
 sense.set_rotation(180)
 
-# Display the text stored in the userText variable on sense hat
-# LED matrix
-sense.show_message(userText,
+# Display the text stored in the textToDisplay variable on
+# sense hat LED matrix
+sense.show_message(textToDisplay,
                    text_colour = textColor,
                    back_colour = backColor)
 

@@ -7,26 +7,21 @@ from sense_hat import SenseHat
 sense = SenseHat()
 
 # Below we create a String variable called textToDisplay
-# (a variable that is considered text) We also assign the
-# value of Hello World to that String variable
+# Then assign the value of Hello World to that variable
 textToDisplay = "Hello World"
 
-# Create a tuple in the format Red, Green, Blue (RGB)
-# The following puts no values in Red or Green, but puts a
-# full value in the Blue section. This will result in a
-# blue background
-backgroundColor = (0,0,255)
+# Set text and background colors using tuples in RGB format
+textColor = (255,255,0)
+backColor = (0,0,255)
 
-# The following tuple will result in yellow text
-textColor = (255, 255, 0)
-
-# Correct display orientation needed
+# Correct the display orientation if neccessary
 sense.set_rotation(180)
 
-# Display text
+# Display the text stored in the textToDisplay variable on
+# sense hat LED matrix
 sense.show_message(textToDisplay,
                    text_colour = textColor,
-                   back_colour = backgroundColor)
+                   back_colour = backColor)
 
 # Clear the LED screen
 sense.clear()

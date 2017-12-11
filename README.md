@@ -1,5 +1,4 @@
 # Learn Python 3 with Raspberry Pi & SenseHat: Part 1
-## SenseHat Educational Series
 Welcome and congratulations on deciding to learn Python!
 
 The intent of this repository series is to teach Python in a way that is fun, exciting, and efficient. The SenseHat for the Raspberry Pi provides an excellent platform to teach and explore programming while being useful and entertaining from the very beginning! My hope is that coders of all ages and experience levels will be able to benefit from this material.

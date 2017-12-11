@@ -10,6 +10,6 @@ The content starts off at the beginning level typical of most tutorials with a H
 To follow with the tradition of the countless coders that have come before you, we will start a Hello World application. There are currently 3 versions of the application in this repository. Start with the first one before moving on to the next and type all of the code yourself to improve knowledge retention!
 
 The order of the code examples is indicated by the number following the name of the script:
-    HelloWorld_1.py
-    HelloWorld_2.py
-    HelloWorld_3.py
+* HelloWorld_1.py
+* HelloWorld_2.py
+* HelloWorld_3.py
